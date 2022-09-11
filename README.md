@@ -5,7 +5,7 @@
 - 日本語翻訳
     - https://xn--go-hh0g6u.com/doc/
 
-# Ubuntu 20.04LTSにGoをインストール
+# Ubuntu にGoをインストール
 https://github.com/golang/go/wiki/Ubuntu
 UbuntuのようなDebianベースのシステムには他にもいくつかのオプションがあります。これらのパッケージはGoプロジェクトによって作成されたものではなく、サポートされていませんが、役立つ場合があります。  
 最新のバージョンに更新します。
@@ -21,3 +21,6 @@ sudo apt install golang
 ```
 go version
 ```
+# Projectの作成
+1. プロジェクトフォルダを作成します。
+2. `go mod init "フォルダ名"`を実行します。
