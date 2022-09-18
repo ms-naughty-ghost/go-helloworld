@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-// ポインタ
-
+// 変数のコピーコストを考えると参照渡しがいい
 func Double(i int) {
 	i = i * 2
 }
