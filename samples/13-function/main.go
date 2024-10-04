@@ -16,6 +16,7 @@ func SumDif(x int, y int) (int, int) {
 // 返却する変数を予め宣言する
 func Sum(x int, y int) (result int) {
 	result = x + y
+	// return result を省略できる
 	return
 }
 
